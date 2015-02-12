@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .intro {
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 .intro .tagline{
@@ -29,13 +29,6 @@
 	text-align: center;
 }
 
-.contact {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
-
-}
-
 a, a:link {
 	color: #6FDED8;
 }
@@ -45,9 +38,7 @@ a:hover {
 }
 
 .footer {
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0 0;
+	border-bottom: 1px dotted #090909;
 }
 
-.footer .fa {
-	padding-right: 5px;
-}
