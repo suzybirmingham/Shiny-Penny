@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.intro {
+	padding-top: 5%;
+}
+
+.intro .tagline{
+	padding: 10%;
+}
+
+.intro img {
+	width: 320px;
+	height: 320px;
+	border-radius: 160px;
+	border-radius: 160px;
+	border-radius: 160px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.highlights .fa {
+	font-size: 32px;
+	padding-top: 20px;
+}
+
+.highlights h3 {
+	text-align: center;
+}
+
+.contact {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+
+a, a:link {
+	color: #6FDED8;
+}
+
+a:hover {
+	color: #DE6F75;
+}
+
+.footer {
+	padding: 20px 0 20px 0;
+}
+
+.footer .fa {
+	padding-right: 5px;
+}
