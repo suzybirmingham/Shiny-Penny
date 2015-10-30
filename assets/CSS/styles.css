@@ -6,6 +6,9 @@
 }
 */
 
+p {
+	padding-top: 10px;
+}
 
 .intro, .tagline {
 	padding-top: 2%;
