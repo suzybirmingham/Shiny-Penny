@@ -1,22 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.intro {
-	padding-top: 2%;
+/*body {
+	font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+*/
 
-.intro .tagline{
-	padding: 10%;
+
+.intro, .tagline {
+	padding-top: 2%;
+	text-align: center;
 }
 
 .intro img {
-	width: 320px;
-	height: 320px;
-	border-radius: 160px;
-	border-radius: 160px;
-	border-radius: 160px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
@@ -38,7 +37,23 @@ a:hover {
 }
 
 .footer {
-	padding: 20px 0 0 0;
+	padding: 5% 0 0 0;
 	border-bottom: 1px dotted #090909;
 }
 
+ /* Medium Devices, Desktops */
+    @media only screen and (min-width : 900px) {
+    	body {
+    		margin: 100px 50px 0 50px;
+    	}
+    }
+
+/* Large Devices, Desktops */
+    @media only screen and (min-width : 1400px) {
+    	body {
+    		margin: 100px 100px 0 100px;
+    	}
+    }
+
+
+  
