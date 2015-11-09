@@ -44,6 +44,8 @@ a:hover {
 	border-bottom: 1px dotted #090909;
 }
 
+/* Phones - need to add more padding to top of site */
+
  /* Medium Devices, Desktops */
     @media only screen and (min-width : 900px) {
     	body {
